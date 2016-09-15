@@ -12,16 +12,25 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Hello Matt!"
         android:id="@+id/textView" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Send Message"
-        android:id="@+id/messageButton"
+        android:text="ACTIVITY 2"
+        android:id="@+id/a2_button"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
         android:layout_marginStart="26dp"
         android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 3"
+        android:id="@+id/a3_button"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/a2_button"
+        android:layout_alignStart="@+id/a2_button" />
 </RelativeLayout>
